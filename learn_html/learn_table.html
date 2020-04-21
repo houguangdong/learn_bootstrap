@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+    <p>
+        每个表格从一个 table 标签开始。
+        每个表格行从 tr 标签开始。
+        每个表格的数据从 td 标签开始。
+    </p>
+    <h4>一列:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <h4>一行三列:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+
+    <h4>两行三列:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+    <hr>
+    <!--    表格的表头使用 <th> 标签进行定义。-->
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>row 1, cell 1</td>
+            <td>row 1, cell 2</td>
+        </tr>
+        <tr>
+            <td>row 2, cell 1</td>
+            <td>row 2, cell 2</td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <!--    本例演示如何显示表格表头。-->
+    <h4>水平标题:</h4>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Telephone</th>
+            <th>Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h4>垂直标题:</h4>
+    <table border="1">
+        <tr>
+            <th>First Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th>Telephone:</th>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <th>Telephone:</th>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+
+    <hr>
+    <table border="1">
+        <!--        本例演示一个带标题 (caption) 的表格-->
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--    本例演示如何定义跨行或跨列的表格单元格。    -->
+    <h4>单元格跨两列:</h4>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+
+    <h4>单元格跨两行:</h4>
+    <table border="1">
+        <tr>
+            <th>First Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <!--    表格内的标签-->
+    <!--    本例演示如何显示在不同的元素内显示元素。-->
+    <table border="1">
+        <tr>
+            <td>
+                <p>这是一个段落</p>
+                <p>这是另一个段落</p>
+            </td>
+            <td>这个单元格包含一个表格:
+                <table border="1">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>这个单元格包含一个列表
+                <ul>
+                    <li>apples</li>
+                    <li>bananas</li>
+                    <li>pineapples</li>
+                </ul>
+            </td>
+            <td>HELLO</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--    本例演示如何使用 Cell padding 来创建单元格内容与其边框之间的空白。-->
+    <h4>没有单元格边距:</h4>
+    <table border="1">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4>有单元格边距:</h4>
+    <table border="1" cellpadding="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--    本例演示如何使用 Cell spacing 增加单元格之间的距离。-->
+    <h4>没有单元格间距:</h4>
+    <table border="1">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4>单元格间距="0":</h4>
+    <table border="1" cellspacing="0">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4>单元格间距="10":</h4>
+    <table border="1" cellspacing="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--    <colgroup> 和 <col> 标签为表格中的三个列设置了背景色：-->
+    <table border="1">
+        <colgroup>
+            <col span="2" style="background-color:red">    <!--  <span>规定列组应该横跨的列数。</span>-->
+            <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--    带有 <thead>、<tfoot> 和 <tbody> 元素的 HTML 表格：-->
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td>Sum</td>
+            <td>$180</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+    <h4 style="text-align:center">课程表</h4>
+    <table border="1" cellpadding="10" width="100%">
+        <tr>
+            <th colspan="2">时间\日期</th>
+            <th>一</th>
+            <th>二</th>
+            <th>三</th>
+            <th>四</th>
+            <th>五</th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">上午</th>
+            <th>9:30-10:15</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+        </tr>
+
+        <tr>
+            <th>10:25-11:10</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+        </tr>
+
+        <tr>
+            <th colspan="7"></th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">下午</th>
+            <th>14:30-15:15</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+        </tr>
+
+        <tr>
+            <th>15:25-16:10</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+            <th>语文</th>
+        </tr>
+    </table>
+
+
+    <hr>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo</title>
+    </head>
+    <body>
+    <h1 style="text-align:center;">My working time</h1>
+    <table border="2">
+        <caption><b>Working Day</b></caption>
+        <tr>
+            <th rowspan="2">Am</th>
+            <td>9:30</td>
+            <td>11:30</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>-----</td>
+        </tr>
+        <tr>
+            <td>Working</td>
+            <td>Go off work</td>
+            <td>Empty</td>
+            <td>Empty</td>
+            <td>Empty</td>
+            <td>Empty</td>
+        </tr>
+        <tr>
+            <th colspan="7" style="text-align:center;">
+                Rest
+            </th>
+        </tr>
+        <tr>
+            <th rowspan="2">Pm</th>
+            <td>1:00</td>
+            <td>6:00</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>-----</td>
+        </tr>
+        <tr>
+            <td>Working</td>
+            <td>Go off work</td>
+            <td>Empty</td>
+            <td>Empty</td>
+            <td>Empty</td>
+            <td>Empty</td>
+        </tr>
+    </table>
+    </body>
+    </html>
+
+    <!--    表格三要素 table、tr、td 缺一不可。-->
+    <!--    <table> 标签常用属性：-->
+    <!--        border="1"   表格边框的宽度-->
+    <!--        bordercolor="#fff"   表格边框的颜色-->
+    <!--        cellspacing="5"   单元格之间的间距-->
+    <!--        width="500"   表格的总宽度-->
+    <!--        height="100"   表格的总高度-->
+    <!--        align="right"   表格整体对齐方式    (参数有  left、center、right)-->
+    <!--        bgcolor="#fff"   表格整体的背景色-->
+    <!--        <tr> 标签的常用属性:-->
+    <!--            bgcolor="#fff"    行的颜色-->
+    <!--            align="right"    行内文字的水平对齐方式    (参数有left、center、right)-->
+    <!--            valign="top"     行内文字的垂直对齐方式    (参数有top、middle、bottom)-->
+    <!--            <td>、<th> 标签的常用属性:-->
+    <!--                width="500"    单元格的宽度，设置后对当前一列的单元格都有影响-->
+    <!--                height="100"   单元格的高度，设置后对当前一行的单元格都有影响-->
+    <!--                bgcolor="fff"  单元格的背景色-->
+    <!--                align="right"  单元格文字的水平对齐方式    (参数left、center、right)-->
+    <!--                rowspan="3"    合并垂直水平方向的单元格-->
+    <!--                colspan="3"    合并水平方向单元格-->
+    <!--                valign="top"   单元格文字的垂直对齐方式    (参数middle、bottom、top)-->
+    <!--                引号里的数字和颜色代码均可以更改。-->
+
+
+    <!--    表格结构语义标签：-->
+    <!--    1.<table>：表格根元素。-->
+    <!--        2.<thead>：表格头。-->
+    <!--        3.<tbody>：表格体。-->
+    <!--        4.<tfoot>：表格尾，一般可忽略该结构。-->
+    <!--        5.<tr>：表格行。-->
+    <!--            表格内容标签：-->
+    <!--            1.<th>：表头单元格。-->
+    <!--                2.<td>：表体单元格。-->
+    <!--                跨列：colspan-->
+    <!--                跨行：rowspan-->
+    <!--                单元格内边距：cellpadding-->
+    <!--                单元格外边距：cellspacing-->
+    <!--                col 和 colgroup 用于便捷定义表格指定列的样式。-->
+</body>
+</html>

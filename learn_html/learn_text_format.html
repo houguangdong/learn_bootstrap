@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本格式化</title>
+</head>
+<body>
+    <p>这是另外一个段落。</p>
+    <b>加粗文本</b><br><br>
+    <i>斜体文本</i><br><br>
+    <code>电脑自动输出</code><br><br>
+    这是 <sub> 下标</sub> 和 <sup> 上标</sup>
+
+    <!--    通常标签 <strong> 替换加粗标签 <b> 来使用, <em> 替换 <i>标签使用。-->
+    <br>
+    <strong>这个文本是加粗的</strong>
+    <big>这个文本字体放大</big>
+    <small>这个文本是缩小的</small>
+    <em>这个文本是斜体的</em>
+    <pre>
+    此例演示如何使用 pre 标签
+    对空行和    空格
+    进行控制
+    </pre>
+    <!--    此例演示如何在 HTML 文件中写地址。-->
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    <hr>
+    <!--    使用 target 属性，你可以定义被链接的文档在何处显示 在新窗口打开文档：-->
+    <a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">访问菜鸟教程!</a>
+    <a id="tips">有用的提示部分</a>
+    <!--    在HTML文档中创建一个链接到"有用的提示部分(id="tips"）"：-->
+    <a href="#tips">访问有用的提示部分</a>
+    <!--    或者，从另一个页面创建一个链接到"有用的提示部分(id="tips"）"：-->
+    <a href="https://www.runoob.com/html/html-links.html#tips">访问有用的提示部分</a>
+    <!--    基本的注意事项 - 有用的提示-->
+    <!--    注释： 请始终将正斜杠添加到子文件夹。假如这样书写链接：href="https://www.runoob.com/html"，就会向服务器产生两次 HTTP 请求。这是因为服务器会添加正斜杠到这个地址，然后创建一个新的请求，就像这样：href="https://www.runoob.com/html/"-->
+    <p>创建图片链接:
+        <a href="//www.runoob.com/html/html-tutorial.html">
+            <img  border="10" src="smiley.gif" alt="HTML 教程" width="32" height="32">
+        </a>
+    </p>
+    <p>无边框的图片链接:
+        <a href="//www.runoob.com/html/html-tutorial.html">
+            <img border="0" src="smiley.gif" alt="HTML 教程" width="32" height="32">
+        </a>
+    </p>
+
+    <hr>
+    <p>跳出框架?</p>
+    <a href="//www.runoob.com/" target="_top">点击这里!</a>
+    <hr>
+
+    <p>
+        这是一个电子邮件链接：
+        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+            发送邮件
+        </a>
+    </p>
+
+    <p>
+        <b>注意:</b> 单词之间空格使用 %20 代替，以确保浏览器可以正常显示文本。
+    </p>
+    <hr>
+
+    <p>
+        这是另一个电子邮件链接：
+        <a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">发送邮件!</a>
+    </p>
+
+    <p>
+        <b>注意:</b> 单词之间的空格使用 %20 代替，以确保浏览器可以正常显示文本。
+    </p>
+    <hr>
+
+
+    <a href="mailto:zhangrr601@163.com?subject=这是邮件的主题&body=这是邮件的内容" rel="nofollow">发送邮件</a>
+    <hr>
+
+    <!--    这样会调启系统默认的邮件程序发送给 zhangrr601@163.com，并且收件人那里已经填上了我邮箱的地址。-->
+    <!--    关于创建电子邮件链接时如何进行抄送，密送.-->
+    <!--    在进行抄送时，需要使用关键字：cc-->
+    <!--    在进行密送时，需要使用关键字：bcc-->
+    <!--    示例如下：-->
+    <a href="mailto:zhangrr601@163.com?cc=someone@163.com&bcc=somebody@163.com" rel="nofollow">发送邮件</a>
+    <!--    nofollow 是 HTML 页面中 a 标签的属性值。这个标签的意义是告诉搜索引擎"不要追踪此网页上的链接或不要追踪此特定链接"。-->
+    <!--    注：多个邮件地址用 ; 隔开，空格用 %20 代替。-->
+    <a href="http://www.runoob.com/" target="_blank" rel="noopener noreferrer">访问菜鸟教程!</a>
+    <!--    不会打开其他的网站，因为恶意病毒可能会修改你的浏览器空白页地址。-->
+    <hr>
+
+    <p>
+        <a href="#C4">查看章节 4</a>
+    </p>
+
+    <h2>章节 1</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 2</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 3</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2><a id="C4">章节 4</a></h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 5</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 6</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 7</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 8</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 9</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 10</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 11</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 12</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 13</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 14</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 15</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 16</h2>
+    <p>这边显示该章节的内容……</p>
+
+    <h2>章节 17</h2>
+    <p>这边显示该章节的内容……</p>
+
+</body>
+</html>

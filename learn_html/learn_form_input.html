@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>biaodan—and-input</title>
+</head>
+<body>
+    <form name="input" action="html_form_action.php" method="get">
+        Username: <input type="text" name="user"><br>
+        Password: <input type="password" name="password"><br>
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female">Female<br>
+        <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+        <input type="checkbox" name="vehicle" value="Car">I have a car<br>
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        <textarea rows="10" cols="30">
+            我是一个文本框。
+        </textarea>
+        <input type="button" value="Hello world!">
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <!--    对表单中的相关元素进行分组-->
+    <form action="">
+        <fieldset>
+            <legend>Personal information:</legend>      <!--    定义了 <fieldset> 元素的标题-->
+            Name: <input type="text" size="30"><br>
+            E-mail: <input type="text" size="30"><br>
+            Date of birth: <input type="text" size="10">
+        </fieldset>
+    </form>
+
+    <hr>
+    <form action="demo-form.php">
+        First name: <input type="text" name="FirstName" value="Mickey"><br>
+        Last name: <input type="text" name="LastName" value="Mouse"><br>
+        <input type="submit" value="提交">
+    </form>
+
+    <p>点击"提交"按钮，表单数据将被发送到服务器上的“demo-form.php”。</p>
+
+    <hr>
+    <form action="demo-form.php" method="get">
+        <input type="checkbox" name="vehicle[]" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle[]" value="Car" checked="checked"> I have a car<br>
+        <input type="submit" value="提交">
+    </form>
+
+    <hr>
+    <form action="demo-form.php" method="get">
+        <input type="radio" name="sex" value="Male"> Male<br>
+        <input type="radio" name="sex" value="Female" checked="checked"> Female<br>
+        <input type="submit" value="提交">
+    </form>
+
+    <hr>
+    <h3>发送邮件到 someone@example.com:</h3>
+
+    <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" value="your name"><br>
+        E-mail:<br>
+        <input type="text" name="mail" value="your email"><br>
+        Comment:<br>
+        <input type="text" name="comment" value="your comment" size="50"><br><br>
+        <input type="submit" value="发送">
+        <input type="reset" value="重置">
+    </form>
+
+    <hr>
+    <!--    带有两个输入字段和相关标记的简单 HTML 表单：-->
+    <!--    定义了 <input> 元素的标签，一般为输入标题-->
+    <form action="demo_form.php">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="male" value="male"><br>
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="female" value="female"><br><br>
+        <input type="submit" value="提交">
+    </form>
+
+    <hr>
+    <!--    定义选项组-->
+    <select>
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+
+    <hr>
+    <!--    指定一个预先定义的输入控件选项列表-->
+    <!--    下面是一个 <input> 元素，<datalist> 中描述了其可能的值：-->
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+    <hr>
+    <!--    带有 keygen 字段的表单：-->
+    <!--    定义了表单的密钥对生成器字段-->
+    <form action="demo_keygen.asp" method="get">
+        用户名: <input type="text" name="usr_name">
+        加密: <keygen name="security">
+        <input type="submit">
+    </form>
+
+    <hr>
+    <!--    定义一个计算结果-->
+    <!--    将计算结果显示在 <output> 元素中：-->
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+        <input type="range" id="a" value="50">100
+        +<input type="number" id="b" value="50">
+        =<output name="x" for="a b"></output>
+    </form>
+
+    <input type="reset">定义重置按钮
+    <input type="reset" name="button" id="button" value="重置">
+    <!--    点击之后会将重置按钮所在的表单中填写的内容重新设置为默认值。-->
+
+    <form>
+        <p>你生活在哪个国家？</p>
+        <input type="radio" name="country" value="China" checked="checked">中国<br />
+        <input type="radio" name="country" value="the USA">美国
+    </form>
+    <!--    同一组的单选按钮，name 取值一定要一致，比如上面例子为同一个名称“country”，这样同一组的单选按钮才可以起到单选的作用。-->
+</body>
+</html>

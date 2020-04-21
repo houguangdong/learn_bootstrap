@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1031a5b-47f6-41ae-a16b-3582e1127f17" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VYvDAlfyUxqng7NgSni4hP2CLH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.h5_learn_0.html">
+    <configuration name="h5_learn_0.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/learn_html/h5_learn_0.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="learn_div_table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/learn_html/learn_div_table.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="learn_form_input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/learn_html/learn_form_input.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="learn_iframe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/learn_html/learn_iframe.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="learn_javascript.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_html/learn_javascript.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.h5_learn_0.html" />
+        <item itemvalue="JavaScript Debug.learn_javascript.html" />
+        <item itemvalue="JavaScript Debug.learn_iframe.html" />
+        <item itemvalue="JavaScript Debug.learn_form_input.html" />
+        <item itemvalue="JavaScript Debug.learn_div_table.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1031a5b-47f6-41ae-a16b-3582e1127f17" name="Default Changelist" comment="" />
+      <created>1577442720381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577442720381</updated>
+      <workItem from="1577442721490" duration="177000" />
+      <workItem from="1577446395297" duration="1246000" />
+      <workItem from="1577701090673" duration="53000" />
+      <workItem from="1585541126884" duration="3000" />
+      <workItem from="1585541137566" duration="25000" />
+      <workItem from="1585541302976" duration="1483000" />
+      <workItem from="1585581495081" duration="1569000" />
+      <workItem from="1585583341620" duration="162000" />
+      <workItem from="1585585398017" duration="1188000" />
+      <workItem from="1585587223182" duration="278000" />
+      <workItem from="1585628475309" duration="577000" />
+      <workItem from="1585650066000" duration="481000" />
+      <workItem from="1585650587650" duration="196000" />
+      <workItem from="1585654636009" duration="294000" />
+      <workItem from="1585655042456" duration="547000" />
+      <workItem from="1585655812298" duration="590000" />
+      <workItem from="1585656447908" duration="1565000" />
+      <workItem from="1585658257373" duration="1159000" />
+      <workItem from="1585706239725" duration="4000" />
+      <workItem from="1585706401467" duration="1159000" />
+      <workItem from="1585708066611" duration="1350000" />
+      <workItem from="1585709882358" duration="1202000" />
+      <workItem from="1585712081995" duration="230000" />
+      <workItem from="1585714139741" duration="601000" />
+      <workItem from="1585714924775" duration="374000" />
+      <workItem from="1585715315367" duration="527000" />
+      <workItem from="1585716261263" duration="223000" />
+      <workItem from="1585720165864" duration="361000" />
+      <workItem from="1585850054413" duration="773000" />
+      <workItem from="1585860930295" duration="602000" />
+      <workItem from="1585757502185" duration="982000" />
+      <workItem from="1585759885118" duration="33000" />
+      <workItem from="1585883098192" duration="802000" />
+      <workItem from="1585884144061" duration="900000" />
+      <workItem from="1587470284963" duration="188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1249" y="273" key="run.anything.popup" timestamp="1585581902908">
+      <screen x="0" y="23" width="1680" height="986" />
+    </state>
+    <state x="1249" y="273" key="run.anything.popup/0.23.1680.986@0.23.1680.986" timestamp="1585581902908" />
+    <state x="2305" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1585708421632">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2305" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1680.986/1680.23.1920.1057@1680.23.1920.1057" timestamp="1585708421632" />
+  </component>
+</project>
